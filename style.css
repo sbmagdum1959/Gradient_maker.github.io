@@ -1,0 +1,143 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    font-weight: bolder;
+    font-size: 25px;
+    font-family: cursive;
+      letter-spacing: 2px;
+  }
+
+body{
+    padding: 0;
+    margin-left: 15%;
+    width: 1045px;
+    height: 99vh;
+
+  }
+
+
+.main{
+    margin:50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+ }
+
+#title{
+  font-size: xx-large;
+    font-weight: revert;
+    font-family: cursive;
+    color: #FFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-shadow: 4px 4px #604f4f;
+}
+.bod .header{
+  text-shadow: 4px 4px #604f4f;
+  text-decoration: underline;
+     margin-left: -1065px; 
+    font-family: monospace !important;
+}
+.html5colorpicker{
+  margin-bottom: 50px; 
+  margin-top: 25px;
+  width: 460px;
+  height: 52px;
+  background-color: transparent;
+  border:none;
+ 
+}
+.html5colorpicker_one{
+  margin-bottom: 50px; 
+  margin-top: 25px;
+  width: 460px;
+  height: 52px;
+  background-color: transparent;
+  border:none;
+}
+.html5colorpicker_two{
+  margin-bottom: 50px; 
+  margin-top: 25px;
+  width: 460px;
+  height: 52px;
+  background-color: transparent;
+  border:none;
+}
+
+.bod a {
+  text-decoration:none;
+  color:#FFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bod .rainbow-button {
+  width:calc(20vw + 6px);
+  height:calc(3vw + 6px);
+  margin-left: 35%;
+  background-image: linear-gradient(90deg, #00C0FF 0%, #FFCF00 49%, #FC4F4F 80%, #00C0FF 100%);
+  border-radius:5px;
+  border: 1px solid black;
+  text-transform:uppercase;
+  font-size:1.2vw;
+  font-weight:bold;
+  box-shadow: 4px 4px darkslategrey;
+}
+.bod .rainbow-button:hover::after {
+  /* content:attr(alt); */
+  width:20vw;
+  height:3vw;
+}
+.bod .rainbow-button:hover {
+  animation:slidebg 2s linear infinite;
+}
+
+@keyframes slidebg {
+  to {
+    background-position:20vw;
+  }
+}
+.icon{
+  color: white;
+  cursor: pointer;
+}
+
+#grid{
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: center;
+  }
+ #grid > * {
+  margin: 20px;
+  margin-top: 70px;
+  }
+ 
+.options{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  }
+
+#round_icon{
+  border: 2px solid white;
+  padding: 2px;
+  border-radius: 6px;
+}
+
+code{
+  background-color: #e0dfdf57;
+    border: 1px solid #999;
+    display: inline-block;
+    padding: 10px;
+    font-size: smaller;
+    border-radius: 7px;
+    box-shadow: 4px 4px #00000026;
+    font-family: fangsong;
+    margin-left: -110px;
+    margin-top: 80px;
+}
+.code{
+  margin-bottom: -100px;
+    margin-left: -55px;
+}
